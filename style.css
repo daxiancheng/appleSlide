@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/0faaf66114b0f29730375af67de61dad.jpg);
+   background-size:cover;
+}
+.window{
+    margin: 103px auto;
+    width: 920px;
+    height: 575px;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    transition: all 1s;
+    transform: translateX(-920px);
+}
+.pre,.next{
+    width: 144px;
+    height: 132px;
+    margin: 0px 50px;
+}
+.button_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 206px;
+}
